@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technical on Ben Ewing</title>
+    <link>/categories/technical/</link>
+    <description>Recent content in technical on Ben Ewing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/technical/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Language for Survey Programming</title>
+      <link>/post/2020/01/05/a-language-for-survey-programming/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/01/05/a-language-for-survey-programming/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
