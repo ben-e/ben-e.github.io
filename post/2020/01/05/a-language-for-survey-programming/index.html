@@ -105,7 +105,7 @@ to_survey({
     int(&quot;hh_size&quot;, &quot;A1. How many people live in your household?&quot;)
   })
   
-  repeat_group(name = &quot;section_b&quot;, label = &quot;Section B: Household Roster&quot;, 
+  begin_repeat(name = &quot;section_b&quot;, label = &quot;Section B: Household Roster&quot;, 
                repeat_count = &quot;${hh_size}&quot;, {
     int(&quot;age&quot;, &quot;B1. What is this household member&#39;s age?&quot;)
   })
@@ -118,10 +118,10 @@ to_survey({
 ##   &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;      &lt;chr&gt;            &lt;chr&gt;    &lt;chr&gt;           
 ## 1 begi~ sect~ &quot;&quot;    &quot;&quot;         &quot;&quot;               &quot;&quot;       &quot;&quot;              
 ## 2 inte~ hh_s~ &quot;&quot;    &quot;&quot;         &quot;&quot;               &quot;&quot;       &quot;&quot;              
-## 3 end_~ &lt;NA&gt;  &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;             &lt;NA&gt;     &lt;NA&gt;            
+## 3 end_~ &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;             &lt;NA&gt;     &lt;NA&gt;           
 ## 4 begi~ sect~ &quot;&quot;    &quot;&quot;         &quot;&quot;               &quot;&quot;       &quot;&quot;              
 ## 5 inte~ age   &quot;&quot;    &quot;&quot;         &quot;&quot;               &quot;&quot;       &quot;&quot;              
-## 6 end_~ &lt;NA&gt;  &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;             &lt;NA&gt;     &lt;NA&gt;            
+## 6 end_~ &lt;NA&gt;   &lt;NA&gt;  &lt;NA&gt;       &lt;NA&gt;             &lt;NA&gt;     &lt;NA&gt;           
 ## # ... with 7 more variables: default &lt;chr&gt;, relevant &lt;chr&gt;, read_only &lt;chr&gt;,
 ## #   calculation &lt;chr&gt;, appearance &lt;chr&gt;, label &lt;chr&gt;, repeat_count &lt;chr&gt;
 ## 
